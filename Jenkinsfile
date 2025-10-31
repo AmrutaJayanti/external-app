@@ -9,7 +9,7 @@ pipeline {
 		stage('Cloning the repository'){
 			steps{
 		  echo "Cloning the repository"
-		  git branch: 'main', url:"file:///home/amruta-jayanti/local-repos/nodeapp.git"
+		  git branch: 'main', url:"https://github.com/AmrutaJayanti/external-app.git"
 			}
 		 }
 		 
